@@ -13,12 +13,19 @@ const app = express();
 // If I want to restrict it to a specific frontend, I can replace it with something like ['http://localhost:3000']. 
 // I enabled common HTTP methods (GET, POST, PUT, DELETE) and allowed headers like Content-Type and Authorization.
 // Since I'm not using cookies or credentials for now, I kept credentials set to false.
-app.use(cors({
+/*
+
+{
     origin : "*", // ["'http://localhost:3000'"] => your domain here
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: false
-}))
+    credentials: true
+}
+
+*/
+
+
+app.use(cors());
 app.use(helmet());
 
 // parse json request body

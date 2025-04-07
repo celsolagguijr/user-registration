@@ -42,7 +42,6 @@ class AuthService{
         try {
            return await bcrypt.hash(password, this.SALT_ROUND);
         } catch (error) {
-            console.log(error)
             throw new Error("Something went wrong.")
         }
     }

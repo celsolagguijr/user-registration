@@ -16,7 +16,7 @@ export class User {
     @Column({ type: "date" })
     dateOfBirth : Date;
 
-    @Column({ type: "varchar" })
+    @Column({ type: "varchar" ,length :150})
     username : string;
 
     @Column({ type: "varchar", length:255 })
