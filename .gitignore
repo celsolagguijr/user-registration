@@ -1,0 +1,6 @@
+# Ignore node_modules in both backend and frontend
+/backend/node_modules/
+/frontend/node_modules/
+
+# Or if the structure changes, you can use a wildcard to ignore all node_modules
+**/node_modules/
