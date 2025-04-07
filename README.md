@@ -3,7 +3,7 @@
 ## 🛠 Tech Stack
 
 - **Backend:** `TypeScript`, `Express.js`, `TypeORM`, `MySQL`, `nodemon`  
-- **Frontend:** `React.js`, `Ant Design`, `TypeScript`, `axios`, `Vite`
+- **Frontend:** `React.js`, `Ant Design`, `TypeScript`, `axios`,`React Query` `Vite`
 
 ---
 
