@@ -5,7 +5,7 @@ const router = Router();
 
 const authController = new AuthController();
 
-router.post('/auth', async (req:Request, res,Response) => {
+router.post('/auth', async (req:Request, res:Response) => {
   await authController.login(req, res);
 });
 
