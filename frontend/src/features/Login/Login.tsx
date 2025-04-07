@@ -44,12 +44,16 @@ const Login: React.FC = () => {
               <Form.Item
                 name="username"
                 rules={[
-                  { required: true, message: "Please input your Username" },
+                  {
+                    required: true,
+                    message: "Please input your Email",
+                  },
                 ]}
               >
                 <Input
                   prefix={<UserOutlined />}
-                  placeholder="Username"
+                  placeholder="Email"
+                  type="email"
                   size="large"
                 />
               </Form.Item>
